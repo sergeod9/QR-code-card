@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+.page-placeholder{
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-qrcode-widget-container{
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #0014;
+}
+.qrcode-container{
+    width: 100%;
+}
+.qrcode-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.qrcode-text{
+    margin: 1.5em 1em;
+    text-align: center;
+}
+.qrcode-text h1{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+.qrcode-text p{
+    margin-top: 1em;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.4em;
+}
+.attribution{
+    margin-top: 4em;
+    color: gray;
+}
+.attribution a{
+    color: royalblue;
+    font-weight: 900;
+}
+.attribution a:hover{
+    color: blue;
+}
+
+@media screen and (max-width: 390px){
+    .main-qrcode-widget-container{
+        width: 350px;
+    }
+    .attribution{
+        width: 350px;
+        font-size: 1.1em;
+        letter-spacing: .15em;
+        text-align: center;
+    }
+
+}
