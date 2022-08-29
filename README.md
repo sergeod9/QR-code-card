@@ -1,5 +1,7 @@
 # Frontend Mentor - QR code component
 
+## First challenge submission by Georges Dahdouh
+
 ![My challenge submission preview](./images/screenshot.jpg)
 
 ## Welcome! 👋
